@@ -12,7 +12,6 @@ export default class HeaderPage{
         userMenu:"//button[contains(@class,'mat-focus-indicator mat-menu-trigger')]",
         myOrder:"//button[text()='My Orders' and @role='menuitem']",
         logoutLink:"//button[text()='Logout' and @role='menuitem']",
-        
     }
 private get loginLink():Locator{
     return this.page.getByRole('button',{name:'Login'});
